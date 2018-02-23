@@ -15,7 +15,7 @@
   <a href="https://github.com/alexdevero/instagram-desktop-uploader/releases"><img alt="Current release" src="https://img.shields.io/github/release/alexdevero/instagram-desktop-uploader.svg"></a>
 </p>
 
-# Torrent Magnet Link Generator
+# Magnet Link Generator
 
 A simple app that helps you generate magnet links from hashes.
 
