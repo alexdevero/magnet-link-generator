@@ -1,0 +1,57 @@
+{
+  "name": "torrent-magnet-link-generator",
+  "version": "0.0.1",
+  "description": "A simple app that helps you generate magnet links from hashes.",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexdevero/magnet-link-generator.git"
+  },
+  "homepage": "https://github.com/alexdevero/magnet-link-generator#readme",
+  "bugs": {
+    "url": "https://github.com/alexdevero/magnet-link-generator/issues"
+  },
+  "author": {
+    "name": "Alex Devero",
+    "email": "deveroalex@gmail.com",
+    "url": "https://alexdevero.com/"
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "keywords": [
+    "app",
+    "bittorrent",
+    "electron",
+    "electron-app",
+    "generator",
+    "hashes",
+    "javascript",
+    "open",
+    "open-source",
+    "source",
+    "tool",
+    "torrent",
+    "torrents"
+  ],
+  "engines": {
+    "node": ">=9.x",
+    "npm": ">=5.x",
+    "yarn": ">=1.x.x"
+  },
+  "main": "main.js",
+  "scripts": {
+    "package": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --icon=assets/magnetron-icon",
+    "start": "cross-env NODE_ENV=dev electron ./src/app.js"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.3",
+    "electron": "~1.8.2",
+    "eslint": "^4.18.1"
+  }
+}
