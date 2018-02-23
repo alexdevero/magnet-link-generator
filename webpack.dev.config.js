@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { spawn } = require('child_process')
 
 // Config directories
-const SRC_DIR = path.resolve(__dirname, 'app')
+const SRC_DIR = path.resolve(__dirname, 'src')
 const OUTPUT_DIR = path.resolve(__dirname, 'dist')
 
 // Any directories you will be adding code/files into, need to be added to this array so webpack will pick them up
