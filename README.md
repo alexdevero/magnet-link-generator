@@ -17,7 +17,7 @@
 
 # Torrent Magnet Link Generator
 
-Tool that helps you generate magnet links for torrents from hashes.
+A simple app that helps you generate magnet links from hashes.
 
 ### Table of contents
 

@@ -1,5 +1,5 @@
 {
-  "name": "torrent-magnet-link-generator",
+  "name": "magnet-link-generator",
   "version": "0.0.1",
   "description": "A simple app that helps you generate magnet links from hashes.",
   "license": "MIT",
