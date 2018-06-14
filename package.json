@@ -46,10 +46,10 @@
   },
   "main": "main.js",
   "scripts": {
-    "package": "webpack --config webpack.build.config.js",
+    "package": "webpack --config webpack.build.config.js --mode=production",
     "postpackage": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --icon=src/assets/magnetron-icon",
-    "prod": "webpack --config webpack.build.config.js && electron --noDevServer .",
-    "start:app": "webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js",
+    "prod": "webpack --config webpack.build.config.js --mode=production && electron --noDevServer .",
+    "start:app": "webpack-dev-server --hot --host 0.0.0.0 --config=./webpack.dev.config.js --mode=development",
     "start:cli": "cross-env NODE_ENV=dev node ./cli/index.js",
     "start:old": "cross-env NODE_ENV=dev electron ./app.js"
   },
