@@ -3,6 +3,7 @@
  * @version 0.1
  */
 
+const chalk = require('chalk')
 const readline = require('readline')
 
 const rl = readline.createInterface({
@@ -16,7 +17,7 @@ const init = () => {
       var result = 'magnet:?xt=urn:btih:'
       result += answer.toString()
 
-      console.log(`\nYour magnet link: ${result}\n`)
+      console.log(`\nYour magnet link: ${chalk.blue(result)}\n`)
 
       return result
     }
