@@ -44,7 +44,10 @@
     "npm": ">=5.0",
     "yarn": ">=1.0"
   },
-  "main": "main.js",
+  "main": "src/index.js",
+  "bin": {
+    "magnetGenerator": "src/index.js"
+  },
   "scripts": {
     "package": "webpack --config webpack.build.config.js --mode=production",
     "postpackage": "cross-env NODE_ENV=prod electron-packager ./ --out=./builds --overwrite --icon=src/assets/magnetron-icon",
