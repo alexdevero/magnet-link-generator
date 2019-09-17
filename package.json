@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
