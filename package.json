@@ -68,7 +68,7 @@
     "babili-webpack-plugin": "^0.1.2",
     "chalk": "^2.4.1",
     "cross-env": "^5.2.0",
-    "electron": "^15.5.5",
+    "electron": "^18.3.7",
     "electron-packager": "^12.1.0",
     "eslint": "^4.19.1",
     "file-loader": "^1.1.11",
